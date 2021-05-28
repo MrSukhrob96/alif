@@ -45,14 +45,4 @@ class User extends Authenticatable
         return $this->find($id);
     }
 
-    public function add_email()
-    {
-
-    }
-
-    public function add_phone()
-    {
-
-    }
-
 }
